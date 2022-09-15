@@ -20,7 +20,7 @@ struct PersonCellView: View {
                 .padding()
             VStack(alignment: .leading) {
                 Text(person.name)
-                    .font(.title)
+                    .font(.title2)
                     .fontWeight(.semibold)
                     .padding(.bottom, 4)
                 Text(person.product)
