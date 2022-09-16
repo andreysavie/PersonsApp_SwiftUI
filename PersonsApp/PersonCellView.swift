@@ -21,11 +21,11 @@ struct PersonCellView: View {
             VStack(alignment: .leading) {
                 Text(person.name)
                     .font(.title2)
-                    .fontWeight(.semibold)
+//                    .fontWeight(.semibold)
                     .padding(.bottom, 4)
                 Text(person.product)
                     .font(.title3)
-                    .fontWeight(.regular)
+//                    .fontWeight(.regular)
             }
             Spacer()
         }

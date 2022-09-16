@@ -18,14 +18,14 @@ struct DetailsView: View {
                 Text(object.name)
                     .lineLimit(nil)
                     .font(.largeTitle)
-                    .fontWeight(.semibold)
+//                    .fontWeight(.semibold)
             }
             
             VStack(alignment: .leading, spacing: 12.0) {
                 Text("Описание")
                     .font(.title)
                 Text(object.description)
-                    .fontWeight(.light)
+//                    .fontWeight(.light)
                     .lineLimit(nil)
             }
             Spacer()
